@@ -37,3 +37,4 @@ C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Libreria.genruntimeconfig.cache
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Libreria.csproj.CopyComplete
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Venta\Index.cshtml.g.cs
+C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Shared\ProductoS.cshtml.g.cs

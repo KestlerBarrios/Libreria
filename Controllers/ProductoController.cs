@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using Libreria.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -7,12 +8,13 @@ namespace Libreria.Controllers
     {
         public IActionResult Index()
         {
-            var producto = new Producto();
-            producto.nombreProducto = "Crayones";
-            producto.marca = "Tucan";
-            producto.distintivo = "Cera Jumbo";
-            producto.color = "Verdes";
-            return View(producto);
+            var productos = new List<Producto>(){
+                new Producto{nombreProducto= "Crayones"},
+                new Producto{nombreProducto= "Marcadores"},
+                new Producto{nombreProducto= "Resaltadores"}
+            };
+
+            return View(productos);
         }
     }
 }
