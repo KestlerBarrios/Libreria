@@ -1,6 +1,6 @@
 namespace Libreria.Models
 {
-    public class Compras
+    public class Compra
     {
         
     }
