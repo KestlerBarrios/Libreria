@@ -2,7 +2,7 @@ namespace Libreria.Models
 {
     public class Proveedor
     {
-        public int idProveedor { get; set; }
+        public int proveedorId { get; set; }
         public string nombreProveedor { get; set; }
         public int telefono { get; set; }
         public string direccion { get; set; }

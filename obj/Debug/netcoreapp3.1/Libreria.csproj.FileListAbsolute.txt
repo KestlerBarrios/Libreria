@@ -81,3 +81,4 @@ C:\Projects\C#\Libreria\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\
 C:\Projects\C#\Libreria\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Compra\Index.cshtml.g.cs
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Proveedor\Index.cshtml.g.cs
+C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Acerca\Index.cshtml.g.cs

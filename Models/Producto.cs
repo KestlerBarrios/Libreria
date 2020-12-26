@@ -2,6 +2,7 @@ namespace Libreria.Models
 {
     public class Producto
     {
+        public string productoId { get; set; }
         public string nombreProducto { get; set; }
         public string marca { get; set; }
         public string distintivo { get; set; }
