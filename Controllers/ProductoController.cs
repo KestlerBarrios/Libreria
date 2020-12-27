@@ -10,7 +10,7 @@ namespace Libreria.Controllers
         private LibreriaContext _context;
         public IActionResult Index()
         {
-            var productos = _context.Productos.FirstOrDefault();
+            var productos = _context.Productos.ToList();
             return View(productos);
         }
 
