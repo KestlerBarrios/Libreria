@@ -3,18 +3,20 @@
 <table class="table table-dark table-hover">
     <thead>
         <tr>
+            <th scope="col">Id</th>
             <th scope="col">Nombre</th>
             <th scope="col">Marca</th>
             <th scope="col">Precio</th>
         </tr>
     </thead>
     <tbody>
-        @foreach (var producto in Model)
+        @foreach (var productos in Model)
         {
             <tr>
-                <td>@producto.nombreProducto</td>
-                <td>@producto.marca</td>
-                <td>Q .@producto.precio</td>
+                <td>@productos.productoId</td>
+                <td>@productos.nombreProducto</td>
+                <td>@productos.marca</td>
+                <td>Q .@productos.precio</td>
             </tr>
         }
     </tbody>
