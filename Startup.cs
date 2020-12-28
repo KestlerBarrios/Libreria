@@ -27,7 +27,7 @@ namespace Libreria
         {
             services.AddControllersWithViews();
             services.AddDbContext<LibreriaContext>(
-                options => options.UseInMemoryDatabase(databaseName : "Libreria")
+                options => options.UseInMemoryDatabase(databaseName : "LibreriaDB")
             );
         }
 
@@ -56,6 +56,7 @@ namespace Libreria
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                    
             });
         }
     }

@@ -14442,6 +14442,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\Shared\\VentaS.cshtml",
+      "TargetPath": "Views\\Shared\\VentaS.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\Compra\\Index.cshtml",
       "TargetPath": "Views\\Compra\\Index.cshtml",
       "FileKind": "mvc"
