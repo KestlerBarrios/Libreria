@@ -83,3 +83,4 @@ C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Compra\Index.cshtml.
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Proveedor\Index.cshtml.g.cs
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Acerca\Index.cshtml.g.cs
 C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Shared\VentaS.cshtml.g.cs
+C:\Projects\C#\Libreria\obj\Debug\netcoreapp3.1\Razor\Views\Producto\ProductoSee.cshtml.g.cs

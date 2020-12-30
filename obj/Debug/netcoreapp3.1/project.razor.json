@@ -14460,6 +14460,11 @@
       "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\Proveedor\\Index.cshtml",
       "TargetPath": "Views\\Proveedor\\Index.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\Producto\\ProductoSee.cshtml",
+      "TargetPath": "Views\\Producto\\ProductoSee.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
