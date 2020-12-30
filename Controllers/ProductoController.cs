@@ -26,7 +26,7 @@ namespace Libreria.Controllers
             return View(_context.Productos.ToList());
         }
 
-        [Route("ProductoController/ProductoSee/{productoId?}")]
+        [Route("Producto/ProductoSee/{productoId?}")]
         public IActionResult ProductoSee(string productoId)
         {
             var Product = from produ in _context.Productos

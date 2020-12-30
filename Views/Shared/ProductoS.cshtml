@@ -18,16 +18,12 @@
                 <td>@productos.marca</td>
                 <td>Q .@productos.precio</td>
                 <td>
-                    <a asp-controller="Producto" asp-action='ProductoSee'><img src="/wwwroot/view.png" alt="No"></a>
-                    <button type="submit">Editar</button>
-                    <button type="submit">Eliminar</button>
+                    <a href="ProductoSee/@productos.productoId"><img src="../../view.png" alt="No"></a>
+                    @* <a asp-controller="Producto" asp-action='ProductoSee' id="@productos.productoId" ><img src="../../view.png" alt="No"></a> *@
+                    <a type="submit"><img src="../../lapiz.png" alt="No"></a>
+                    <a type="submit"><img src="../../delete.png" alt="No"></a>
                 </td>
             </tr>
         }
     </tbody>
-
-
-    <div class="alert alert-success" role="alert">
-        @ViewBag.mensaje
-    </div>
 </table>
