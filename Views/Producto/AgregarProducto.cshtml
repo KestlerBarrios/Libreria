@@ -1,0 +1,31 @@
+@model Producto;
+
+<h1 style="text-align: center;">Agregar Producto</h1>
+
+<form method="post">
+    <div>
+        <label asp-for="nombreProducto">Nombre Producto</label>
+        <input asp-for="nombreProducto">
+    </div>
+    <div>
+        <label asp-for="marca">Marca</label>
+        <input asp-for="marca">
+    </div>
+    <div>
+        <label asp-for="distintivo">Distintivo</label>
+        <input asp-for="distintivo">
+    </div>
+    <div>
+        <label asp-for="color">Color</label>
+        <input asp-for="color">
+    </div>
+    <div>
+        <label asp-for="cantidad">Cantidad</label>
+        <input asp-for="cantidad">
+    </div>
+    <div>
+        <label asp-for="precio">Precio</label>
+        <input asp-for="precio">
+    </div>
+    <input type="submit" value="Agregar" >
+</form>

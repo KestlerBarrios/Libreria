@@ -14417,13 +14417,13 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\Producto\\AgregarProducto.cshtml",
+      "TargetPath": "Views\\Producto\\AgregarProducto.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\Shared\\ProductoS.cshtml",
-      "TargetPath": "Views\\Shared\\ProductoS.cshtml",
+      "FilePath": "c:\\Projects\\C#\\Libreria\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {

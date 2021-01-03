@@ -9,19 +9,16 @@ namespace Libreria.Controllers
     public class ProductoController : Controller
     {
         private LibreriaContext _context;
-        public IActionResult Index()
-        {
-            return View();
-        }
-        [HttpPost]
-        public IActionResult Index(Producto producto)
+    
+        public IActionResult AgregarProducto(Producto producto)
         {
             producto.productoId = Guid.NewGuid().ToString();
             _context.Productos.Add(producto);
             _context.SaveChanges();
             return View();
         }
-        public IActionResult ProductoS(Producto producto)
+
+        public IActionResult Index(Producto producto)
         {
             return View(_context.Productos.ToList());
         }
