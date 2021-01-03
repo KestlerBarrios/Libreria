@@ -26,8 +26,11 @@ namespace Libreria
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            // services.AddDbContext<LibreriaContext>(
+            //     options => options.UseInMemoryDatabase(databaseName : "LibreriaDB")
+            // );
             services.AddDbContext<LibreriaContext>(
-                options => options.UseInMemoryDatabase(databaseName : "LibreriaDB")
+                options => ConfigurationExtensions.GetConnectionString(this.Configuration, "DefaultConnectionstring")
             );
         }
 

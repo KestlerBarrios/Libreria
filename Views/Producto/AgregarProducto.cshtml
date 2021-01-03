@@ -1,8 +1,8 @@
 @model Producto;
 
-<h1 style="text-align: center;">Agregar Producto</h1>
+<h5 style="text-align: center;">Agregar Producto</h5>
 
-<form method="post" style="text-align: center;">
+<form method="post" style="text-align: center;" target="_self">
     <div>
         <label asp-for="nombreProducto">Nombre Producto</label> <br>
         <input asp-for="nombreProducto">
@@ -27,5 +27,5 @@
         <label asp-for="precio">Precio</label> <br>
         <input asp-for="precio">
     </div> <br>
-    <input type="submit" value="Agregar" >
+    <input type="submit" value="Agregar" onclick="alert('Enviada')">
 </form>
